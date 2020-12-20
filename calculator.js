@@ -23,7 +23,6 @@ function calc(x, y, type) {
 }
 
 function add(x, y) {
-    console.log(x, y)
     return x + y;
 }
 
