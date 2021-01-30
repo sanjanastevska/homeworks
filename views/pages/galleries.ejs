@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="style.css">
+<%- include('../template/head')-%>
+
+<body>
+    <div>
+        <%- include('../template/nav.ejs')-%>
+
+        <main>
+            <h1>Galleries</h1>
+            <ul class="pages">
+                <% galleries.forEach(image => {%>
+                    <li><a href="<%= image.url%>"><%=image.name%></a></li>
+                <%});%>
+            </ul>
+
+            <%- include('../template/footer.ejs')-%>
+        </main>
+    </div>
+</body>
+</html>
