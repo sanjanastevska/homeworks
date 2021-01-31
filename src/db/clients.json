@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dea2cca5962f6f28ed5cdbf4b6f949b4",
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 25,
+    "address": {
+      "streetAddress": "21 2nd Street",
+      "city": "New York",
+      "postalCode": "10021"
+    },
+    "phoneNumber": "212 555-1234"
+  },
+  {
+    "id": "dea2cca5962f6f28ed5cdbf4b6f949x3",
+    "firstName": "updatedName",
+    "lastName": "updatedLastName",
+    "age": 15,
+    "address": {
+      "streetAddress": "25 2nd Street",
+      "city": "Texas",
+      "postalCode": "100212626564"
+    },
+    "phoneNumber": "212 555-1234"
+  },
+  {
+    "id": "ba7fe9858cbdf39c1b81fd1243953cc8",
+    "firstName": "NEW",
+    "lastName": "NEW",
+    "age": 15,
+    "address": {
+      "streetAddress": "21 2nd Street",
+      "city": "New York",
+      "postalCode": "10021"
+    },
+    "phoneNumber": "212 555-1234"
+  }
+]
