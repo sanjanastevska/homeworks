@@ -19,10 +19,10 @@ async function get(req, res, next) {
     const isFound = clientsDb.findIndex(client => client.id === id) > -1;
 
     if (isFound) {
-        const foundUser = clientsDb.find(client => client.id === id);
-        res.send({ body: foundUser });
+        const foundClient = clientsDb.find(client => client.id === id);
+        res.send({ body: foundClient });
     } else {
-        res.send({ error: `Clients ${id} is not found.` });
+        res.send({ error: `Client's ${id} is not found.` });
     }
 
     await next;
